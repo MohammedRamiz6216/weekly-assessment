@@ -26,12 +26,10 @@ public class Assessment {
         String WordOne = sc.nextLine();
         String WordTwo = sc.nextLine();
 
-        try {
+
             int occurrences = CountStringOccurence(WordOne, WordTwo);
             System.out.println("Number of occurrences of the substring: " + occurrences);
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
+
 
     }
 
